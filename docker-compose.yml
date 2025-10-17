@@ -14,6 +14,7 @@ services:
 
   backend:
     image: rishindravarmam/docker-backend-prac-jsk:latest
+    platform: linux/amd64
     container_name: springboot
     ports:
       - "2025:1778"
