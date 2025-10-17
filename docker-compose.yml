@@ -25,6 +25,7 @@ services:
 
   frontend:
     image: rishindravarmam/docker-frontend-prac-jsk:latest
+    platform: linux/amd64
     container_name: react
     ports:
       - "3000:80"
